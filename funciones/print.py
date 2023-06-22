@@ -66,3 +66,10 @@ nombre = 'paola'
 edad = 22
 print("Mi nombre es", nombre, "y yo tengo",edad , "años", end=" ")
 print("Un gusto conocerte!.")
+
+#formas de imprimir una variable 
+#-------
+organizacion='nasa'
+print('aprende a programar {}'.format(organizacion))
+
+print(f'aprende a programar {organizacion}') #f-string
