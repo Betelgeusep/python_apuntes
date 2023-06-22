@@ -23,4 +23,4 @@ def adivina_el_numero(x):
     print(f"felicitaciones adivinaste el numero  {numero_aleatorio} correctamente")
 
 
-adivina_el_numero(10)
+adivina_el_numero(20)
