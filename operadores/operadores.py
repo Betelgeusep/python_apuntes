@@ -44,7 +44,7 @@ mul = a * b
  
 # Modulo 
 mod = a % b
- 
+mod= 2%2
 # exponenciacion
 p = a ** b
  

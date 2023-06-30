@@ -1,7 +1,7 @@
 #ADIVINA EL NUMERO 
 
 #EL USUARIO TIENE QUE ADIVINAR UN NUMERO GENERADO ALEATORIO
-import random
+from random import random
 
 
 def adivina_el_numero(x):
