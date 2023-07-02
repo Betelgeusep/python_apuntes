@@ -101,7 +101,7 @@ print()
 
 
 
-# elimimando llaves 
+# elimimando elementos 
 #los valores no existen si no estan sus claves
 print("----------------eliminar llaves-----------")
 del lenguage['tipo']
@@ -115,9 +115,14 @@ print (lenguage)
 lenguage.popitem()
 print(lenguage)
 
+# lenguage.pop('tipo')
+
+#eliminar todos los elementos
+#   lenguage.clear()
 print()
 #funciones y metodos en diccionarios 
 
+#se recomienda una tupla para que sea solo leer
 print("-----------------metodo item----------------------------")
 #retorna una lista de tuplas donde cada tupla es la combinacion de cada llava con su respectivo valor
 print(lenguage.items())
@@ -152,3 +157,35 @@ for elemento in lenguage.items():
     print(elemento)
     
 print()
+
+#get 
+
+usuario={
+    'name':'eduardo ismael',
+    'age':26,
+    'job':'codigo facilito'
+}
+
+calificaciones=usuario.get('calificaciones','la llave no existe')
+
+if calificaciones:
+    for calificacion in calificaciones:
+        print(calificacion)
+
+usuarios=['eduardo', 'fernando', 'uriel', 'rafael']
+diccionario={ usuario:position+1
+             for position, usuario in enumerate(usuarios)}
+
+print(diccionario)
+
+#set default
+#si la llave no existe empieza a añadir 
+
+valor=diccionario.setdefault('e',5)
+print(valor)
+print(diccionario)
+
+def suma_pares(numero_1 = 10, numero_2 = 20):
+    return numero_1 + numero_2
+def suma_pares(numero_1=10, numero_2=20):
+    return numero_1 + numero_2

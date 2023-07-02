@@ -73,3 +73,7 @@ organizacion='nasa'
 print('aprende a programar {}'.format(organizacion))
 
 print(f'aprende a programar {organizacion}') #f-string
+
+
+nombre='Eduardo Ismael'
+apellido='garcia'

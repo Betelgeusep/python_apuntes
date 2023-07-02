@@ -73,7 +73,22 @@ print("b es igual ",b)
 print("c es igual ",c)
 print("d es igual ",d)
 
+#si las variables no alcanzan podemos
 
+numero=(1,23,5,3,2,3,4,2)
+#se almacenaran en una lista * los restantes
+#* -> lista
+uno,dos,tres,*resto_valores=numero
+
+#si no deseamos trabajar con los restantes valores
+#_ -> omitir valor
+uno,dos,tres,*_=numero
+
+#omitir elementos con un rango 
+uno,dos,tres,*_ , nueve, diez=numero
+
+#omitir un elementos especificos
+uno,_,tres,*_ , nueve, diez=numero
 
 print("-----------for-----------")
 for elem in nombre:

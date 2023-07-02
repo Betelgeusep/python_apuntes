@@ -80,6 +80,7 @@ print(resultado)#el resultado es un dupla
 
 
 #-------documentacion de funciones-----
+# __doc__ (modulos, clases,metodos y funciones)
 #descripcion corta
 def area_triangulo(b,h):
     """ calcular el area de un triangulo"""
@@ -102,13 +103,17 @@ def area_triangulo2(b,h):
         
     Returns:
         area(float): el area del triangulo
+    
+    TODO:
+        *
     """
     area=(b*h)/2
     return area
 
 area_triangulo2(5,4)
 
-
+print(area_triangulo2.__doc__)
+print(help(area_triangulo2))
 #-------------------------none------------------------------
 
 def saludo(nombre):
