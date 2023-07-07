@@ -1,7 +1,7 @@
 #ADIVINA EL NUMERO 
 
 #EL USUARIO TIENE QUE ADIVINAR UN NUMERO GENERADO ALEATORIO
-from random import random
+from random import randint
 
 
 def adivina_el_numero(x):
@@ -10,7 +10,7 @@ def adivina_el_numero(x):
     print("====================")
     print("tu meta es adivinar el numero generado por la computadora")
     
-    numero_aleatorio=random.randint(1,x)
+    numero_aleatorio=randint(1,x)
     
     prediccion=0
     while prediccion!=numero_aleatorio:
@@ -22,5 +22,5 @@ def adivina_el_numero(x):
             print("intenta otra vez. este numero es muy grande")
     print(f"felicitaciones adivinaste el numero  {numero_aleatorio} correctamente")
 
-
-adivina_el_numero(20)
+xy=int(input('ingresa un numero'))
+adivina_el_numero(xy)

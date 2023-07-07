@@ -10,12 +10,15 @@ print(vocales)
 #lista=['string',10,15.6,True]
 
 #crear listas que almacenen un tipo de dato
-#cada uno de los valores les corresponde una posicion y empiza en 0
+#cada uno de los valores les corresponde una posicion y empieza en 0
 #                0         1       2       3     4   
 #                -5       -4      -3      -2    -1
 lista_cursos=['python','django','flack','ruby','java']
-
+cuarto_elemento=lista_cursos[3]
+print(cuarto_elemento)
 primer_curso=lista_cursos[0]
+print(primer_curso)
+primer_curso=lista_cursos[-5]
 print(primer_curso)
 
 print("----------------------------")
@@ -86,6 +89,7 @@ print(sub_lista)
 
 print("----------------sublista con saltos----------------")
 #sublita a partir de saltos 
+# lista_cursos=['python','django','flack','ruby','java']
 # [start:end:saltos]
 sub_lista=lista_cursos[1:4:2]
 print(sub_lista)
@@ -130,7 +134,7 @@ lista_cursos2=['c','c++','docker']
 
 lista_cursos.extend(lista_cursos2)
 
-print(lista_cursos)
+print(len(lista_cursos))
 
 
 #----------------------Eliminar elementos de listas------------------------------------------------------------

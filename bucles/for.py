@@ -33,7 +33,7 @@ print("---------------------------")
 
 print("---------------------------")
 
-for numb in range(10):
+for numb in range(1,11):
     print(numb)
     
 print("---------------------------")
@@ -66,10 +66,10 @@ else:
     # Este código siempre se ejecuta si no
     # se ejecutó la sentencia break en el bloque for """
 
-numeros = [1, 2, 4, 7, 5, 8, 6]
+numeros = [1, 2, 4, 3,7, 5, 8, 6]
 for n in numeros:
     if n == 3:
+        print("el numero 3 se encuentra en la lista")
         break
 else:
     print('No se encontró el número 3')
-print("el numero 3 se encuentra en la lista")

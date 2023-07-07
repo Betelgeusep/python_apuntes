@@ -49,19 +49,69 @@ print(titulo_curso.startswith('curso'))
 print(titulo_curso.endswith('curso'))
 
 
+
+
+
+
+
+#min()
+# Demonstración de min() - Ejemplo 1:
+print(min("aAbByYzZ"))
+
+
+# Demonstración de min() - Ejemplos 2 y 3:
+t = 'Los Caballeros Que Dicen "Ni!"'
+print(min(t))
+print('[' + min(t) + ']')
+
+t = [0, 1, 2]
+print(min(t))
+#max
+print()
+# Demostración de max() - Ejemplo 1:
+print(max("aAbByYzZ"))
+
+
+# Demostración de max() - Ejemplo 2 y 3:
+t = 'Los Caballeros Que Dicen "Ni!"'
+print('[' + max(t) + ']')
+
+t = [0, 1, 2]
+print(max(t))
+
+
+#metodo index
+print('\n metodo index')
+print("aAbByYzZaA".index("b"))
+print("aAbByYzZaA".index("Z"))
+print("aAbByYzZaA".index("A"))
+
+## Demostración de la función list():
+print(list("hello"))
+
+
+# Demostración del método capitalize():
+print('paolA'.capitalize())
+
 #justificar texto 
 
-mensaje='hola'
 
 #ljust -> justificar a la izquierda
 #rjust -> justificar a la derecha
 # center ->center
 
 #se genera un nuevo string
-
+mensaje='hola'
 mensaje1=mensaje.ljust(20)
 print(mensaje1)
 mensaje2=mensaje.rjust(20)
 print(mensaje2)
 mensaje3=mensaje.center(20)
 print(mensaje3)
+
+# Demostración del método endswith():
+t = "python"
+print(t.endswith("a"))
+
+print(t.find('o'))
+print(t.find('ha'))
