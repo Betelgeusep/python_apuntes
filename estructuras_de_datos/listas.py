@@ -236,3 +236,5 @@ squares = [x ** 2 for x in range(10)]
 print(squares)
 
 #------------------------------------------------------------------------------------------
+numeros = [x for x in range(101)]
+print(numeros)

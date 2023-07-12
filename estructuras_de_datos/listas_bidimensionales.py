@@ -2,8 +2,11 @@
 nombre_de_la_tabla = []
 
 # También puedes iniciar la listas en el interior
+#                      0   1
 nombre_de_la_tabla = [[], []]
 
+#          [         0             1   ]
+#           [   0        1  ]  [ 0   1]
 mi_tabla = [['Juan', 'Laura'], [21, 32]]
 
 print("------------------------------------------------")
@@ -12,7 +15,7 @@ print(mi_tabla[0][0])
 
 print("------------------------------------------------")
 # Muestra 32 (última fila, segunda columna)
-print(mi_tabla[-1][1])
+print(mi_tabla[-1][-1])
 print("------------------------------------------------")
 # Muestra 21
 print(mi_tabla[1][0])
@@ -40,6 +43,7 @@ for i in range(len(mi_tabla)):
     for j in range(len(mi_tabla[i])):
         print(mi_tabla[i][j])
 
+
 # Con while y los índices
 fila = 0
 
@@ -54,7 +58,7 @@ while fila < len(mi_tabla):
 board = []
  
 for i in range(8):
-    row = [8 for i in range(8)]
+    row = [1 for i in range(8)]
     board.append(row)
 print(board)
 

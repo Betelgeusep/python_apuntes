@@ -119,7 +119,7 @@ screen.setup(500, 500)
 screen.tracer(0)
 
 # Pen
-pen = turtle.Turtle("circle")
+pen = turtle.Turtle("square")
 pen.penup()
 pen.pencolor("green")
 

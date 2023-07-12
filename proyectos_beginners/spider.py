@@ -3,7 +3,7 @@ import turtle
 turtle.bgcolor('black')
 turtle.pencolor('red')
 turtle.hideturtle()
-turtle.speed()
+turtle.speed(100000000)
 #curve01
 def curve01(a,d):
     for i in range(d):

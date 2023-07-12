@@ -27,7 +27,7 @@ def funcion():
     nombre="ana" #variables locales (solo sirve dentro de la funcion)
     print(nombre,APELLIDO)
     
-funcion()
+funcion()#llamado a la funcion 
 print(APELLIDO)
 
 #PARAMETROS
@@ -39,7 +39,9 @@ def perimetro_cuadrado(lado, unidades):
     print(f'el perimetro es: {perimetro} {unidades}')
 
 perimetro_cuadrado(4, 'metros')
+
 perimetro_cuadrado(lado=4, unidades='metros')
+perimetro_cuadrado(unidades='metros',lado=4)
 
 
 print("------return ----------")
