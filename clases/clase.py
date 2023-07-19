@@ -26,8 +26,8 @@ class Empleado(User):#clase hijo
 
 #instancias 
 paola = User('paola')#objeto de instancia
-paola.nombre='paola'
-paola.saludar('heloo ')
+paola.nombre='marisol'
+paola.saludar('hello ')
 
 
 #herencia -> herede los objetos del padre  como jerarquia 
@@ -36,8 +36,9 @@ paola.saludar('heloo ')
         """
 
 empleado=Empleado('uriel')
-empleado.saludar('hola me llamo')
+
 empleado.Modificar_salario(1000)
 empleado.ver_salario()
-    
+empleado.saludar()
+
 

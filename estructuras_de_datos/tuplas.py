@@ -18,12 +18,13 @@ print(lenguages)
 mi_tupla=()
 print("\nTupla vacia: ")
 print(mi_tupla)
+
 # cada elemento de una tupla puede ser de distinto tipo 
 # (punto flotante, entero, cadena, o cualquier otro tipo de dato)
 
 # Creating a Tuple
 # with Mixed Datatype
-Tupla1 = (5, 'python', 7, 'py')
+Tupla1 = (5.8, 'python', 7, 'py')
 print("\nTupla con diferentes datos: ")
 print(Tupla1)
 
@@ -44,9 +45,11 @@ print(un_elemento1)
 
 
 # empaquetados de tuplas
+#      0
 nombre='paola','maria','ale','diego'
 print("\nTuplas empaquetados: ")
 print(nombre)
+
 
 #acceder a los elementos es igula que con las listas
 print("\nacceder al elemento 0: ")
@@ -63,7 +66,7 @@ print(nombre[:])
 print("\nrevertir la tupla: ")
 print(nombre[::-1])
 
-
+#nombre='paola','maria','ale','diego'
 # Tambien se puede desempaquetar 
 # los valores de las tuplas
 a, b, c, d = nombre
@@ -79,6 +82,8 @@ numero=(1,23,5,3,2,3,4,2)
 #se almacenaran en una lista * los restantes
 #* -> lista
 uno,dos,tres,*resto_valores=numero
+print(uno)
+print(resto_valores)
 
 #si no deseamos trabajar con los restantes valores
 #_ -> omitir valor

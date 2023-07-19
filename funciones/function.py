@@ -30,18 +30,24 @@ def funcion():
 funcion()#llamado a la funcion 
 print(APELLIDO)
 
+
+
+
 #PARAMETROS
 #Son los valores que una funcion puede recibir
 #se definen dentro de los parentesis de la funcion
 
 def perimetro_cuadrado(lado, unidades):
+    '''esta funcion calcula el perimetro de un cuadrado'''
     perimetro=lado*4
     print(f'el perimetro es: {perimetro} {unidades}')
 
+
 perimetro_cuadrado(4, 'metros')
 
-perimetro_cuadrado(lado=4, unidades='metros')
-perimetro_cuadrado(unidades='metros',lado=4)
+perimetro_cuadrado(lado=5, unidades='centimetros')
+
+
 
 
 print("------return ----------")
@@ -70,6 +76,7 @@ def calcular_cuadrado(lado):
     perimetro=lado*4
     area=lado*lado
     return area, perimetro
+
 
 area1, perimetro1=calcular_cuadrado(lado=8)
 print(f'area :{area1}, perimetro: {perimetro1} ')
@@ -121,24 +128,30 @@ print(help(area_triangulo2))
 def saludo(nombre):
     print(f'Hola {nombre}')
     
-print(saludo('j2logo'))
+print(saludo('hola python'))
 
 
 
 
 
-def introduction(first_name, last_name="Smith"):
+def introduction(first_name='paola', last_name="Smith"):
      print("Hola, mi nombre es", first_name, last_name)
+     
+     
 introduction("Jorge", "Pérez")
 introduction("Enrique")
 
 #-------------funciones con listas----
-def tabla_del(numero):
-    resultados = []
+def tabla_del(uno, dos):
+    uno = []
+    dos = []
+
+    i=1
     for i in range(11):
-         resultados.append(numero * i)
-    return resultados
+         uno.append(uno * i)
+         dos.append(dos * i)
+    return uno, dos
  
-res = tabla_del(3)
+res = tabla_del(1,2)
 print(res)
  

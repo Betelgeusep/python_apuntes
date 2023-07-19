@@ -14,15 +14,15 @@ lenguage={"nombre": "python", "creador":"Guido van Rossum"}
 print("\n el diccionario es: ")
 print(lenguage)
 
-# tambien puede escribirse 
-"""lenguage={
+lenguage={
             "nombre": "python", 
             "creador":"Guido van Rossum",
-            "x":"y
+            "x":"y"
             }
-    """
+ 
 #
 # Creando un diccionario
+
 # con llaves diferentes
 Dic = {'Nombre': 'maria', 1: [1, 2, 3, 4]}
 print("\nDiccionario con diferentes llves: ")
@@ -52,11 +52,14 @@ print("\n-----acceder al diccionario------")
 #        No se puede utilizar una clave que no exista
 print("\nAccediendo a la llave nombre: ")
 print(lenguage["nombre"])
+print(Dic[1])
+
+
 
 
 
 #-------------buscar si estan las llaves ------------------
-
+#lenguage={"nombre": "python", "creador":"Guido van Rossum"}
 print("\n---------------------------------")
 
 words = ['name', 'last_name', 'creador']
@@ -72,6 +75,7 @@ print("\n---------------------------------")
 # lenguage={"nombre": "python", "creador":"Guido van Rossum"}
 
 print("\n-----añadir elementos----")
+
 #Las llaves son unicas no se pueden repetir 
 lenguage["año_lanzamiento"]=1991
 print(lenguage)
@@ -103,6 +107,7 @@ print()
 
 # elimimando elementos 
 #los valores no existen si no estan sus claves
+
 print("----------------eliminar llaves-----------")
 del lenguage['tipo']
 print (lenguage)
@@ -123,6 +128,7 @@ print()
 #funciones y metodos en diccionarios 
 
 #se recomienda una tupla para que sea solo leer
+
 print("-----------------metodo item----------------------------")
 #retorna una lista de tuplas donde cada tupla es la combinacion de cada llava con su respectivo valor
 print(lenguage.items())

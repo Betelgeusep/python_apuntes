@@ -40,6 +40,7 @@ cv1 = CocheVolador('rojo', 60, esta_volando=True)
 print(cv1.esta_volando)
         
         
-# isinstance(cv1, Coche)
-# issubclass(CocheVolador, Coche)
+isinstance(cv1, Coche)
+issubclass(CocheVolador, Coche)
         
+print(c1 is cv1)

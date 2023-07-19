@@ -77,3 +77,6 @@ print(f'aprende a programar {organizacion}') #f-string
 
 nombre='Eduardo Ismael'
 apellido='garcia'
+
+
+print()

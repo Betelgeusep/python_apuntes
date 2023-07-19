@@ -22,5 +22,6 @@ def adivina_el_numero(x):
             print("intenta otra vez. este numero es muy grande")
     print(f"felicitaciones adivinaste el numero  {numero_aleatorio} correctamente")
 
+
 xy=int(input('ingresa un numero'))
-adivina_el_numero(xy)
+print(prediccion)adivina_el_numero(xy)
